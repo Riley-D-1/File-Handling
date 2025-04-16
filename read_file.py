@@ -1,5 +1,6 @@
 # TODO: Open the file "students.txt" in read mode
-
-    # TODO: Read the file content (use the correct file method)
-
+f= open("students.txt", "r")
+# TODO: Read the file content (use the correct file method)
+a=f.readlines()
 # TODO: Print the content of the file
+print(a)

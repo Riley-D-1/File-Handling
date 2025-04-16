@@ -10,9 +10,10 @@ contacts = [
 
 # 2. Print the details of the second contact.
 # Output will be: ['Bob', '555-5678', 'bob@email.com']
-
+print(contacts[1])
 # 3. Update the phone number of the third contact.
-
+contacts[2][1] = '555-355'
 # 4. Add a new contact to the list.
-
+contacts.append(['Nate', '555-6451', 'nate@email.com'])
 # 5. Print the updated contact list.
+print(contacts)
